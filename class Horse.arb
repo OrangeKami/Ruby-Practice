@@ -1,0 +1,9 @@
+class Horse
+    def say_hello
+      "Lighting Star"
+    end
+  end
+  
+  horse = Horse.new
+  message = horse.say_hello
+  $stdout.puts horse.say_hello
